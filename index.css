@@ -1,0 +1,80 @@
+.heading-container{
+    position: static;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    padding-top: 20px;
+    padding-left: 100px;
+    height: 60px;
+}
+
+#tasks{
+    font: normal bold 40px Inter;
+    color: #424242;
+    margin-right: 5px;
+}
+
+#lists{
+    font: normal bold 40px Inter;
+    color: #00A5EC;
+}
+
+.add-item{
+    position: fixed;
+    padding-top: 15px;
+    font: normal bold 25px Inter;
+    color: #424242;
+    cursor: pointer;
+    padding-left: 78%;
+}
+
+.item-container{
+    padding-top: 81px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #F7F7F7;
+    height: 900px;
+    
+}
+
+.items{
+    width: 400px;
+    height: 400px;
+    background: #FFFFFF;
+    border: 2px solid #EDEDED;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.items h2{
+    text-align: left;
+    padding-left: 20px;
+    font: normal bold 22px Inter;
+    color: #00A5EC;
+    margin-top: 30px;
+}
+
+.items p{
+    padding-left: 30px;
+    font: normal 20px Inter;
+    text-decoration: line-through;
+    color: #C2C2C2;
+    margin-top: 30px;
+}
+
+.items h3{
+    padding-left: 30px;
+    font: normal 20px Inter;
+    color: #424242;
+    margin-top: 30px;
+}
+
+.items:hover{
+    box-shadow: 0px 0px 10px #67676729;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
