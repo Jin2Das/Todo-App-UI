@@ -5,16 +5,16 @@
     padding-top: 20px;
     padding-left: 100px;
     height: 60px;
+    font: normal bold 40px Inter;
 }
 
 #tasks{
-    font: normal bold 40px Inter;
+    
     color: #424242;
     margin-right: 5px;
 }
 
 #lists{
-    font: normal bold 40px Inter;
     color: #00A5EC;
 }
 
@@ -77,4 +77,48 @@
     width: 20px;
     height: 20px;
     margin-right: 15px;
+}
+
+@media(max-width:480px){
+    .heading-container{
+        font: normal bold 25px Inter;
+        padding-left: 10px;
+        height: 40px;
+        padding-top: 2%;
+        box-shadow: 10px #7B7B7B29;
+        margin-bottom: 10px;
+    }
+
+    .add-item{
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 40%;
+        position: static;
+    }
+
+    #add-new{
+        display: none;    
+    }
+
+    .item-container{
+        padding-top: 0%;
+    }
+
+    .items{
+        margin-bottom: 10px;
+    }
+
+    .items h2{
+        font-size: 18px;
+    }
+
+    .items p{
+        font-size: 16px;
+    }
+
+    .items h3{
+        font-size: 16px;
+    }
+
+
 }
