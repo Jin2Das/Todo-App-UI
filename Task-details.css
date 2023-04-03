@@ -19,9 +19,10 @@
 }
 
 .all-item{
-    position: fixed;
+    position: static;
+    padding-top: 20px;
+    padding-bottom: 15px;
     width: 100%;
-    padding-top: 25px;
 }
 
 .add-item1{
@@ -42,12 +43,10 @@
 }
 
 .item-container{
-    padding-top: 80px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background: #F7F7F7;
-    height: 900px;
     
 }
 

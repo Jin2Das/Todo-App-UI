@@ -19,8 +19,9 @@
 }
 
 .add-item{
-    position: fixed;
-    padding-top: 15px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 15px;
     font: normal bold 25px Inter;
     color: #424242;
     cursor: pointer;
@@ -28,7 +29,6 @@
 }
 
 .item-container{
-    padding-top: 81px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
