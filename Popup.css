@@ -1,31 +1,38 @@
-.heading-container{
-    position: static;
-    background: #FFFFFF;
-    box-shadow: 0px 3px 30px #7B7B7B29;
-    padding-top: 20px;
-    padding-left: 100px;
-    height: 60px;
+*{
+    margin: 0%;
 }
 
-#tasks{
+.main-heading{
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 30px #7B7B7B29;
     font: normal bold 40px Inter;
+    height: 100%;
+}
+
+#tasks{  
     color: #424242;
     margin-right: 5px;
 }
 
 #lists{
-    font: normal bold 40px Inter;
     color: #00A5EC;
 }
 
 .add-item{
-    position: relative;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    font: normal bold 25px Inter;
-    color: #424242;
     cursor: pointer;
-    padding-left: 78%;
+    font: normal bold 25px Inter;
+    padding-left: 79%;
+    background: #F7F7F7;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.allcontain{
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
 }
 
 .item-container{
@@ -33,7 +40,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     background: #F7F7F7;
-    height: 900px;
+    height: 55em;
 }
 
 .items{
@@ -78,18 +85,13 @@
     margin-right: 15px;
 }
 
-.allcontain{
-    filter: brightness(40%);
-    -webkit-filter: brightness(40%);
-    z-index: -1;
-}
-
 .prompt-box{
     position: absolute;
     left: 37%;
     top: 25%;
     width: 25%;
-    height: 25%;
+    max-height: max-content;
+    padding-bottom: 15px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px #67676729;
     border: 1px solid #EDEDED;
