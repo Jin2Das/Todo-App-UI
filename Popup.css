@@ -2,14 +2,14 @@
     margin: 0%;
 }
 
-.main-heading{
-    padding-top: 15px;
-    padding-left: 80px;
-    padding-bottom: 20px;
+.heading-container{
+    position: static;
     background: #FFFFFF;
-    box-shadow: 0px 3px 30px #7B7B7B29;
+    box-shadow: 0px 12px 30px #7B7B7B29;
+    padding-top: 20px;
+    padding-left: 100px;
+    height: 60px;
     font: normal bold 40px Inter;
-    height: 100%;
 }
 
 #tasks{  
