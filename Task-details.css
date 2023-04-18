@@ -27,6 +27,7 @@
 
 .add-item1{
     background: #F7F7F7;
+    display: inline-block;
     padding-left: 31%;
     font: normal bold 25px Inter;
     color: #424242;
@@ -35,6 +36,7 @@
 
 .add-item2{
     background: #F7F7F7;
+    display: inline-block;
     padding-left: 16%;
     align-items: center;
     font: normal bold 25px Inter;

@@ -21,7 +21,8 @@
 .all-item{
     position: static;
     width: 100%;
-    padding-top: 0%;
+    padding-top: 12px;
+    background: #F7F7F7;
 }
 
 .add-item1{
@@ -48,6 +49,7 @@
     justify-content: space-evenly;
     background: #F7F7F7;
     height: 650px;
+    padding-top: 10px;
 }
 
 .items{
